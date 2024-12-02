@@ -1,9 +1,11 @@
 #!/bin/python3.12
 
 import os
+import shutil
 
 def main():
-    os.execv("/usr/bin/tmux", ["tmux", "-L", "6666", "attach", "-t", "test"]);
+    tmux_path = shutil.which('tmux')
+    os.execv(tmux_path, ["tmux", "-L", "6666", "attach", "-t", "test"]);
 
 
 
