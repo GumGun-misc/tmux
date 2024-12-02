@@ -1,4 +1,4 @@
 #!/bin/sh
 
-touch todel_create.txt
-echo "adios"
+touch todel_delete.txt
+echo "delete"

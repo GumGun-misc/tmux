@@ -1,4 +1,4 @@
 #!/bin/sh
 
-touch todel_hola.txt
-echo "hola"
+touch todel_create.txt
+echo "create"

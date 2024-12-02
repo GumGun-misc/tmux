@@ -1,0 +1,4 @@
+tmux show-options -AH
+
+set-hook -g session-closed  "run ./scripts/delete.sh"
+set-hook -g session-created "run ./scripts/create.sh"
